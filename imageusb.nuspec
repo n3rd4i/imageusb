@@ -45,6 +45,9 @@ imageUSB includes functionality to Zero a USB Flash Drive. This will replace the
 
 Warning: Due to the forensic nature of image duplication by ImageUSB, please ensure that you select UFDs with a storage size similar to the image you wish to duplicate. For example, if a 2GB image is copied to an 8GB USB Flash Drive, the drive will only be able to use two out of the eight gigabytes of storage space. In this scenario, users will need to reformat the UFD in order to access the rest of the storage space.
 
+## How to use this tool
+* [Howtogeek](https://www.howtogeek.com/446176/how-to-create-an-image-of-your-usb-drive/)
+
 </description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <!-- =============================== -->
