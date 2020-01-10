@@ -1,11 +1,11 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://www.osforensics.com/downloads/imageusb.v1.4.1003.zip'
+$url        = 'https://www.osforensics.com/downloads/imageusb.zip'
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   url           = $url
-  checksum      = 'EE966CFAF59006FDB6CB8B1ECF4A0BC4D3FF5701820AE09D5D436109E927DFCB'
+  checksum      = 'F29ADCE77D18FF0EE69483CD43A724874E161A27841D175D5978C72B8FC4F5A8'
   checksumType  = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
