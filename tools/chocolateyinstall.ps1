@@ -4,7 +4,7 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   url           = 'https://www.osforensics.com/downloads/imageusb.zip'
-  checksum      = 'EC9BCFBC7255010EE80938FCAA9BC28F249515076A9CB36D700F7D3C9318CA31'
+  checksum      = 'fdca8d537b091ab5bb0434cb36075191bbfbb7800f941b3816e22977a353e2cb'
   checksumType  = 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
